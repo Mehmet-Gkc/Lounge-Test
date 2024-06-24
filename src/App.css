@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Header - Navbar */
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header-logo span {
+  color: #61dafb;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #61dafb;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.auth a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.auth a:hover {
+  color: #61dafb;
+}
+
+.auth select {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #282c34;
+  color: white;
+  border: 1px solid #61dafb;
+  border-radius: 4px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  .auth {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .auth a, .auth select {
+    margin-bottom: 10px;
+  }
+
+  .header-logo {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* Footer */
+.App-footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-links, .footer-contact, .social-media {
+  margin: 10px;
+}
+
+.footer-links a, .social-media a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
