@@ -1,5 +1,7 @@
 import React from 'react';
 import Logo from '../../../public/images/Loungmelogo2.png';
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
 
 function Footer() {
   return (
@@ -9,7 +11,7 @@ function Footer() {
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
         <a href="#airports">Airports</a>
-        <a href="#benefits">Membership Benefits</a>
+        <Link to="/membershipbenefits">Membership Benefits</Link>
         <a href="#app">Get the App</a>
         <a href="#business">For Business</a>
       </div>

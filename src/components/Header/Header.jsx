@@ -15,10 +15,13 @@ function Header() {
         </div>
         <ul>
           <li>
-            <Link to="/about">About Us</Link>
+            <Link to="/aboutus">About Us</Link>
           </li>
           <li>
             <Link to="/airports">Airports</Link>
+          </li>
+          <li>
+            <Link to="/membershipbenefits">Membership Benefits</Link>
           </li>
           <li>
             <Link to="/gettheapp">Get the app</Link>
@@ -33,7 +36,7 @@ function Header() {
       </nav>
 
       <div className="auth">
-        <a href="#login">LOG IN</a>
+      <Link to="/login">Login</Link>
         <select>
           <option>Language</option>
           <option>Englisch</option>
