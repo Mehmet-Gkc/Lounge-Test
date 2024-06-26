@@ -7,6 +7,7 @@ import Gettheapp from "./components/GetTheApp/Gettheapp";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Login from "./components/Login/Login";
 import Joinnow from "./components/JoinNow/Joinnow";
+import Airports from "./components/Airports/Airports";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Route path="/aboutus" element={<AboutUs />} /> 
             <Route path="/login" element={<Login />} /> 
             <Route path="/joinnow" element={<Joinnow />} /> 
-
+            <Route path="/airports" element={<Airports />} /> 
           </Routes>
         </PageLayout>
       </Router>
